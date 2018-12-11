@@ -13,7 +13,7 @@ def print_header():
 def calculate_divisors():
     user_input = int(input("Please enter a random integer. "))
 
-    base_list = list(range(1, user_input))
+    base_list = list(range(1, user_input + 1))
 
     divisor_list = []
 
